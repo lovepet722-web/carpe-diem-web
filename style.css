@@ -60,3 +60,6 @@ main{max-width:1740px;margin:22px auto}
 @media(max-width:1350px){.dashboard{grid-template-columns:195px minmax(350px,1fr) 390px;gap:12px}.top nav span{padding:20px 9px;font-size:12px}}
 @media(max-width:1050px){.dashboard{grid-template-columns:1fr 390px}.side{display:none}}
 @media(max-width:760px){.dashboard{grid-template-columns:1fr}.right{display:flex}.chat-panel{height:360px}.top nav span:not(.active){display:none}}
+
+/* V7: enlarged completed-results panel and simplified top navigation */
+.history-panel{max-height:none;min-height:190px}.history-panel #history{max-height:240px;overflow-y:auto;scrollbar-color:#a67a38 #141017}.history-panel .item{padding:8px 4px}.top nav{justify-content:center}.top nav span.active{border-right:1px solid #2b2228}
